@@ -30,15 +30,14 @@ public:
 
 public:
 	static const int  LOOP = 1000; 
-    	static const int  NODE_SZ = 11;
-	static const int  GRAPH_SZ = NODE_SZ*NODE_SZ;
-	static const int  LAST_LINE = NODE_SZ* (NODE_SZ - 1);
+    static const int  NODE_SZ = 11;
+	static const int  GRAPH_SZ = NODE_SZ * NODE_SZ;
+	static const int  LAST_LINE = NODE_SZ * (NODE_SZ - 1);
 	static const int  NUM_THREADS = 4;
 
-
-	typedef Vertex _Vertex; 
-	// with typedef, Graph can use the functions/constructor from Vertex class
-
+    // with typedef, Graph can use the functions/constructor from Vertex class
+	typedef Vertex _Vertex;
+	
 	// Construtor
 	Graph();
 	Graph(const Graph&);
@@ -47,10 +46,8 @@ public:
 	void	insert(int u, int v, char c);
 	void	playGame();
 	void	fillGraph();
-	int	userInput();
+	int     userInput();
 	int     monteCalo();
-
-
 
 	//Friend I / O Functions
 	friend	std::ostream& operator<<(std::ostream &out, Graph &graph);
@@ -59,7 +56,7 @@ public:
 	int	findGameWinner(); // return 1 if wins
 	int findAIMoves(int start); // fill the possible moves
 
-private:
+    private:
 	vector<std::list<Vertex>> adj_list;
 	vector<int> probability;
 	int match;

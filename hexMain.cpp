@@ -1,5 +1,5 @@
-// CMPS 109 HW06
-// HEX BORAD PRESENTATION
+
+// HEX BORAD GAME
 
 #include <iostream>
 #include <ctime>
@@ -9,7 +9,7 @@
 int main(void)
 {
 	srand(time(0));
-	Graph one ;		// default size 11; if you want to change it please go to GraphHex.h
+	Graph one ;		// board size is 11x11
 	
 	one.playGame(); // randomly fill the graphs
 
