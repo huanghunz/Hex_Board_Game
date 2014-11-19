@@ -1,4 +1,0 @@
-
-hexGame_no_thread:hexMain.cpp GraphHex_no_thread.cpp
-	g++ -std=c++11 hexMain.cpp GraphHex_no_thread.cpp -o hexGame_no_thread
-
