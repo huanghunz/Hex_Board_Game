@@ -1,0 +1,4 @@
+
+hw06_no_thread:hw06.cpp GraphHex_no_thread.cpp
+	g++ -std=c++11 hw06.cpp GraphHex_no_thread.cpp -o hw06_no_thread
+
