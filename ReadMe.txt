@@ -1,7 +1,7 @@
 Alesandra Roger (aroger1@ucsc.edu)
 Jiayu Zeng          (jzen5@ucsc.edu)
 
-*We missed the due date of handshaking in Crowgrader, but we co-operated to finish this assignment.
+*It’s a Advanced C++ course project coded by a team of two.
 
 0. We chose to implement multithreading as an option for assignment 6.
 
