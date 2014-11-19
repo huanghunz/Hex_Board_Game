@@ -36,8 +36,7 @@ public:
 	static const int  NUM_THREADS = 4;
 
 
-	typedef Vertex _Vertex; // learn using typedef from the hw03 solution reference, 
-	//  not quite understand though 
+	typedef Vertex _Vertex; 
 	// with typedef, Graph can use the functions/constructor from Vertex class
 
 	// Construtor

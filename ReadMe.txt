@@ -1,12 +1,12 @@
-Alesandra Roger (aroger1@ucsc.edu)
-Jiayu Zeng          (jzen5@ucsc.edu)
+Alesandra Roger 
+Jiayu Zeng         
 
 *It’s a Advanced C++ course project coded by a team of two.
 
-0. We chose to implement multithreading as an option for assignment 6.
+0. This is a hex board game simulation that player competes with an AI opponent.
 
 1. This submission contains two sets of files. Two sets share hw06.cpp and GraphHex.h
-    Both sets use Monte Calo method to implement AI (choosing a best move after 1000 iteration running on each spot.)
+    Both sets use Monte Carlo method to implement the AI, which chooses the best move after 1000 iteration running on each spot.)
      a. one program uses multithreading for AI.  GraphHex.cpp and Makefile used. Specific codes using threading is 
         in function monteCalo( ). Library <omp.h> is included.
      b. another one does not use threading. GraphHex_no_thread.cpp and Makefile_no_thread are used.
